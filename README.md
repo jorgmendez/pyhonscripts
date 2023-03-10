@@ -11,5 +11,5 @@ This repository is a collection of small Python scripts and projects that I've c
 To use the script, run it from the command line and pass two integer values as arguments, like this: python guess_number.py 1 100 (this will generate a random number between 1 and 100). You can modify the range of the numbers by changing the values passed as arguments to the script.
 
 
-- [Script 3](script3.py): Description of what this script does.
+- [Script 3](script3.py): 
 
