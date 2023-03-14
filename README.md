@@ -11,5 +11,5 @@ This repository is a collection of small Python scripts and projects that I've c
 To use the script, run it from the command line and pass two integer values as arguments, like this: python guess_number.py 1 100 (this will generate a random number between 1 and 100). You can modify the range of the numbers by changing the values passed as arguments to the script.
 
 
-- [Script 3](script3.py): 
+- [Pwned Password Checker](password_checker.py): Allows you to check whether a password has been compromised by querying the Have I Been Pwned API. It takes one or more passwords as command-line arguments and returns a message indicating whether each password has been found in any known data breaches. If a password has been compromised, the script recommends that you change it immediately.
 
