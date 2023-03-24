@@ -11,7 +11,7 @@ This repository is a collection of small Python scripts and projects that I've c
 To use the script, run it from the command line and pass two integer values as arguments, like this: python guess_number.py 1 100 (this will generate a random number between 1 and 100). You can modify the range of the numbers by changing the values passed as arguments to the script.
 
 
-- [Pwned Password Checker](password_checker.py): Allows you to check whether a password has been compromised by querying the Have I Been Pwned API. It takes one or more passwords as command-line arguments and returns a message indicating whether each password has been found in any known data breaches. If a password has been compromised, the script recommends that you change it immediately.
+- [Pwned Password Checker](password_checker.py): Allows you to check whether a password has been compromised by querying the ***Have I Been Pwned*** API. It takes one or more passwords as command-line arguments and returns a message indicating whether each password has been found in any known data breaches. If a password has been compromised, the script recommends that you change it immediately.
 
 - [PDF Combiner](pdf_combiner.py): This Python script uses the PyPDF2 library to merge multiple PDF files into a single PDF file named 'super.pdf'. The script accepts a list of PDF files as command-line arguments and defines a function called 'pdf_combiner' that takes in the list of PDF files and merges them using the PyPDF2.PdfFileMerger() class. The merged PDF file is written to a new file named 'super.pdf'. To use the script, simply run it in the command line and provide a list of PDF files to be merged as arguments. Example usage: python pdf_combiner.py file1.pdf file2.pdf file3.pdf
 
