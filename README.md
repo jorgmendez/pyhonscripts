@@ -8,7 +8,7 @@ This repository is a collection of small Python scripts and projects that I've c
 
 - [Guess the number](guess_the_number_game.py): This Python script generates a random number within a specified range and prompts the user to guess it. The range is determined by two integer values passed as command-line arguments. The script validates the user's input to ensure that it is within the specified range and that it is a valid integer. If the user guesses correctly, the script terminates and prints a congratulatory message. If not, the script continues to prompt the user for a guess until a correct answer is given.
 
-To use the script, run it from the command line and pass two integer values as arguments, like this: python guess_number.py 1 100 (this will generate a random number between 1 and 100). You can modify the range of the numbers by changing the values passed as arguments to the script.
+To use the script, run it from the command line and pass two integer values as arguments, like this: ***python guess_number.py 1 100*** (this will generate a random number between 1 and 100). You can modify the range of the numbers by changing the values passed as arguments to the script.
 
 
 - [Pwned Password Checker](password_checker.py): Allows you to check whether a password has been compromised by querying the ***Have I Been Pwned*** API. It takes one or more passwords as command-line arguments and returns a message indicating whether each password has been found in any known data breaches. If a password has been compromised, the script recommends that you change it immediately.
