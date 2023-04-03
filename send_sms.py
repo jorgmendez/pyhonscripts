@@ -1,7 +1,7 @@
 
 from twilio.rest import Client
 
-
+# Define your Twilio account SID and auth token
 account_sid = 'your_account_sid'
 auth_token = 'your_auth_token'
 
