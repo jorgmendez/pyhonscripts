@@ -7,7 +7,7 @@ auth_token = 'your_auth_token'
 
 # Define the phone number to send the SMS to and your Twilio phone number
 to_number = '+1234567890' # Replace with the phone number you want to send the SMS to
-from_number = '+0987654321' 
+from_number = '+0987654321' # Replace with your Twilio phone number
 
 
 client = Client(account_sid, auth_token)
